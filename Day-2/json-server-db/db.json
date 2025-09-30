@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "john@email.com"
+    },
+    {
+      "name": "Peter",
+      "email": "peter@email.com",
+      "id": 2
+    },
+    {
+      "name": "Peter",
+      "email": "peter@email.com",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 17",
+      "price": 17897
+    },
+    {
+      "name": "iPhone 16",
+      "price": 16789,
+      "id": 2
+    },
+    {
+      "name": "Dell Laptop",
+      "price": 67676,
+      "id": 3
+    },
+    {
+      "name": "HP Laptop",
+      "price": 87654,
+      "id": 4
+    },
+    {
+      "name": "Mac Book",
+      "price": 98766,
+      "id": 5
+    },
+    {
+      "name": "Mobile",
+      "price": 67898,
+      "id": 6
+    },
+    {
+      "name": "Tablet",
+      "price": 67889,
+      "id": 7
+    }
+  ]
+}
