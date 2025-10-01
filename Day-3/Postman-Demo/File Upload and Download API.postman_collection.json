@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "9392ac04-8c30-40ad-ba35-c63906630c81",
+		"name": "File Upload and Download API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48896658"
+	},
+	"item": [
+		{
+			"name": "File Upload API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/admin/Downloads/0_f95lfC5bu6p0IZNn.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.escuelajs.co/api/v1/files/upload",
+					"protocol": "https",
+					"host": [
+						"api",
+						"escuelajs",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"files",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "File Download API",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.escuelajs.co/api/v1/files/8101b.png",
+					"protocol": "https",
+					"host": [
+						"api",
+						"escuelajs",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"files",
+						"8101b.png"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

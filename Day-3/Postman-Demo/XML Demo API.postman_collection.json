@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "7a53b10f-574d-4442-9df9-06180c3cdc7d",
+		"name": "XML Demo API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48896658"
+	},
+	"item": [
+		{
+			"name": "XML Validation API",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"let responseJson = xml2Json(pm.response.text());\r",
+							"\r",
+							"pm.test(\"Root elment is note\", function () {\r",
+							"    pm.expect(responseJson).to.have.property(\"note\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"To field is Tove\", function () {\r",
+							"    pm.expect(responseJson.note.to).to.eql(\"Tove\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"From field is Jani\", function () {\r",
+							"    pm.expect(responseJson.note.from).to.eql(\"Jani\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Body contains weekend\", function () {\r",
+							"    pm.expect(responseJson.note.body).to.include(\"weekend\");\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.w3schools.com/xml/note.xml",
+					"protocol": "https",
+					"host": [
+						"www",
+						"w3schools",
+						"com"
+					],
+					"path": [
+						"xml",
+						"note.xml"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
