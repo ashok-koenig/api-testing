@@ -6,32 +6,9 @@
       "email": "john@email.com"
     },
     {
-      "name": "Peter",
-      "email": "peter@email.com",
+      "name": "Ana Smith",
+      "email": "anasmith@email.com",
       "id": 2
-    },
-    {
-      "name": "Peter",
-      "email": "peter@email.com",
-      "id": 3
-    },
-    {
-      "id": 11,
-      "name": "Ashok Kumar",
-      "username": "ashok123",
-      "email": "ashok@example.com"
-    },
-    {
-      "id": 12,
-      "name": "Ashok Kumar",
-      "username": "ashok123",
-      "email": "ashok@example.com"
-    },
-    {
-      "id": 13,
-      "name": "Ashok Kumar",
-      "username": "ashok123",
-      "email": "ashok@example.com"
     }
   ],
   "products": [
@@ -49,21 +26,6 @@
       "name": "iPHone 14",
       "price": 14567,
       "id": 3
-    },
-    {
-      "name": "",
-      "price": "",
-      "id": 4
-    },
-    {
-      "name": "Mobile",
-      "price": "1234",
-      "id": 5
-    },
-    {
-      "name": "Tablet",
-      "price": "3456",
-      "id": 6
     },
     {
       "name": "Keyboard",

@@ -1,0 +1,1 @@
+This is a sample file used to demonstarate file upload and download using rest assured.
