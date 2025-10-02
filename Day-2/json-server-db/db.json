@@ -14,6 +14,24 @@
       "name": "Peter",
       "email": "peter@email.com",
       "id": 3
+    },
+    {
+      "id": 11,
+      "name": "Ashok Kumar",
+      "username": "ashok123",
+      "email": "ashok@example.com"
+    },
+    {
+      "id": 12,
+      "name": "Ashok Kumar",
+      "username": "ashok123",
+      "email": "ashok@example.com"
+    },
+    {
+      "id": 13,
+      "name": "Ashok Kumar",
+      "username": "ashok123",
+      "email": "ashok@example.com"
     }
   ],
   "products": [
@@ -28,29 +46,9 @@
       "id": 2
     },
     {
-      "name": "Dell Laptop",
-      "price": 67676,
+      "name": "iPHone 14",
+      "price": 14567,
       "id": 3
-    },
-    {
-      "name": "HP Laptop",
-      "price": 87654,
-      "id": 4
-    },
-    {
-      "name": "Mac Book",
-      "price": 98766,
-      "id": 5
-    },
-    {
-      "name": "Mobile",
-      "price": 67898,
-      "id": 6
-    },
-    {
-      "name": "Tablet",
-      "price": 67889,
-      "id": 7
     }
   ]
 }
