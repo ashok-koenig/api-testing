@@ -49,6 +49,36 @@
       "name": "iPHone 14",
       "price": 14567,
       "id": 3
+    },
+    {
+      "name": "",
+      "price": "",
+      "id": 4
+    },
+    {
+      "name": "Mobile",
+      "price": "1234",
+      "id": 5
+    },
+    {
+      "name": "Tablet",
+      "price": "3456",
+      "id": 6
+    },
+    {
+      "name": "Keyboard",
+      "price": "5678",
+      "id": 7
+    },
+    {
+      "name": "Mobile",
+      "price": "1234",
+      "id": 8
+    },
+    {
+      "name": "Tablet",
+      "price": "3456",
+      "id": 9
     }
   ]
 }
